@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.7rem 6rem 5rem;
+  font-weight: 500;
+}
+header > img {
+  width: 6rem;
+}
+.news ul {
+  display: flex;
+  justify-content: space-between;
+}
+.news > ul li {
+  margin-right: 0.9rem;
+}
+.news > ul li:not(:first-of-type) {
+  color: gray;
+}
+.news > ul > li:first-child {
+  border-bottom: solid rgba(0, 0, 255, 0.678);
+}
+
+.login ul {
+  display: flex;
+  justify-content: space-between;
+}
+.login > ul li {
+  margin-left: 1rem;
+}
+.login > ul > li:first-of-type {
+  color: gray;
+}
+.login > ul > li:nth-child(2) {
+  color: white;
+  background-color: rgba(62, 91, 253, 0.842);
+  padding: 0.5rem 0.3rem;
+  margin-top: -0.3rem;
+}
+li {
+  list-style: none;
+}
+.login img {
+  height: 30px;
+  width: 30px;
+}
+
+/* Seccion primero */
+.primero {
+  padding: 2.7rem 6rem 5rem;
+}
+.primero h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  width: 80%;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+}
+.primero p {
+  color: gray;
+  width: 55%;
+  line-height: 1.6rem;
+  padding-bottom: 1.5rem;
+}
+.primero > div > button:first-of-type {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.678);
+  margin-right: 0.5rem;
+  padding: 0.6rem;
+  border: none;
+}
+.primero > div > button:last-of-type {
+  color: rgba(0, 0, 255, 0.678);
+  border: solid rgba(0, 0, 255, 0.678);
+  background-color: white;
+  padding: 0.5rem 1.3rem;
+}
+
+/* segundo seccion */
+.segundo ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-top: solid rgb(241, 234, 234);
+  border-bottom: solid rgb(241, 234, 234);
+}
+
+/* Seccion de movil 187 */
+
+.movila {
+  display: flex;
+}
+.movila img {
+  width: 300px;
+  height: 400px;
+  margin: 4rem 6.3rem;
+}
+.movila> section header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+.movila> section> header ul {
+    display: flex;
+    margin-bottom: 2rem;
+    color: blue;
+}
+.movila> section> header> ul> li:first-of-type {
+    margin-right: 1rem;
+}
+.movila h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.movila p {
+    color: gray;
+    line-height: 1.4rem;
+    width: 80%;
+}
+.released> ul:first-of-type {
+    display: flex;
+    padding-bottom: 1.1rem;
+}
+.released> ul:first-of-type li:last-of-type {
+    margin-left: 1rem;
+    color: gray;
+}
+.released> ul:last-of-type {
+    display: flex;
+    padding-bottom: 1.1rem;
+} 
+.released> ul:last-of-type> li:last-of-type {
+    margin-left: 1rem;
+    color: gray;
+}
+.released> button:first-of-type {
+    background-color: blue;
+    padding: 0.4rem 1rem;
+    color: white;
+    border:none;
+}
+.released> button:last-of-type {
+    background-color: white;
+    border: solid rgb(206, 204, 204);
+    font-weight: 500;
+    padding: 0.3rem 1rem;
+}
+
+/* Seccion de otros tipos de moviles */
+#imagenes {
+    width: 150px;
+    height: 200px;
+  }
+.moviles ul {
+      display: flex;
+  }
+.movilb {
+    margin-left: 6rem;
+}
+.movilb header {
+    padding: 2rem 0 1.5rem;
+}
+.movilb> section> header ul {
+    color: blue;
+    padding-left: 0;
+}
+.movilb> section> header> ul> li:first-of-type {
+    margin-right: 1rem;
+}
+.movilb> section h1 {
+    font-size: 1.4rem;
+    padding: 0 0 1rem;
+}
+.movilb p {
+    color: gray;
+    line-height: 1.4rem;
+    padding: 0 0 3rem;
+    width: 90%; 
+}
+
+
+.movilc {
+    margin-left: 6rem;
+}
+.movilc header {
+    padding: 2rem 0 1.5rem;
+}
+.movilc> section> header ul {
+    color: blue;
+    padding-left: 0;
+}
+.movilc> section> header> ul> li:first-of-type {
+    margin-right: 1rem;
+}
+.movilc> section h1 {
+    font-size: 1.4rem;
+    padding: 0 0 1rem;
+}
+.movilc p {
+    color: gray;
+    line-height: 1.4rem;
+    padding: 0 0 3rem;
+    width: 90%; 
+}
+
+.movild {
+    margin-left: 6rem;
+}
+.movild header {
+    padding: 2rem 0 1.5rem;
+}
+.movild> section> header ul {
+    color: blue;
+    padding-left: 0;
+}
+.movild> section> header> ul> li:first-of-type {
+    margin-right: 1rem;
+}
+.movild> section h1 {
+    font-size: 1.4rem;
+    padding: 0 0 1rem;
+}
+.movild p {
+    color: gray;
+    line-height: 1.4rem;
+    padding: 0 0 3rem;
+    width: 90%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width) {
+}
