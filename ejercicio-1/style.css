@@ -165,8 +165,12 @@ li {
 .moviles ul {
       display: flex;
   }
+.moviles {
+    border: solid rgb(190, 183, 183) 0.01rem;
+}
 .movilb {
     margin-left: 6rem;
+    padding: 2rem;
 }
 .movilb header {
     padding: 2rem 0 1.5rem;
@@ -192,6 +196,8 @@ li {
 
 .movilc {
     margin-left: 6rem;
+    padding: 2rem;
+    border: solid rgb(190, 183, 183) 0.01rem;
 }
 .movilc header {
     padding: 2rem 0 1.5rem;
@@ -216,6 +222,7 @@ li {
 
 .movild {
     margin-left: 6rem;
+    padding: 2rem;
 }
 .movild header {
     padding: 2rem 0 1.5rem;
@@ -238,6 +245,94 @@ li {
     width: 90%; 
 }
 
+/* Seccion de plan */
+.plan {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 6rem 2rem;
+  color: white;
+}
+.plan > div:first-of-type {
+  background-color: blue;
+  padding: 0.5rem 6rem 3rem 2rem;
+  margin-right: 0.3rem;
+}
+.plan > div:last-of-type{
+  background-color: black;
+  padding: 0.5rem 6rem 3rem 2rem;
+  margin-left: 2rem;
+}
+.plan h1 {
+  font-size: 2rem;
+  padding: 0;
+}
+.plan p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.plan h3 {
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+.plan ul li {
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+.plan1 {
+  background-color: white;
+  border: none;
+  margin-top: 1rem;
+  padding: 0.5rem 0.4rem;
+  margin-right: 0.3rem;
+}
+.plan2 {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: blanchedalmond;
+  background-color: blue;
+  border: solide white 1rem;
+}
+.plan3 {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  background-color: black;
+  border: solide white 1rem;
+  margin-left: 0.3rem;
+}
+
+footer {
+  display: flex;
+  margin: 6rem 6rem 0rem;
+  padding: 4rem 0 4rem;
+  border-top: solid gray 0.001rem;
+  border-bottom: solid gray 0.001rem;
+}
+footer p {
+  color: gray;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+footer button {
+  background-color: rgba(241, 233, 233, 0.616);
+  margin-top: 2rem;
+  padding: 0.3rem 1rem;
+  border: solid gray 0.01rem;
+}
+
+.out {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.media ul {
+  display: flex;
+  color: gray;
+}
+.media> ul li {
+  margin-left: 1rem;
+}
 
 
 
@@ -245,31 +340,5 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width) {
+@media (min-width=700px) {
 }
