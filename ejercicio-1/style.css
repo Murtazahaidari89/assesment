@@ -104,145 +104,144 @@ li {
   height: 400px;
   margin: 4rem 6.3rem;
 }
-.movila> section header {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-top: 4rem;
-    padding-bottom: 2rem;
+.movila > section header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
 }
-.movila> section> header ul {
-    display: flex;
-    margin-bottom: 2rem;
-    color: blue;
+.movila > section > header ul {
+  display: flex;
+  margin-bottom: 2rem;
+  color: blue;
 }
-.movila> section> header> ul> li:first-of-type {
-    margin-right: 1rem;
+.movila > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
 }
 .movila h1 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .movila p {
-    color: gray;
-    line-height: 1.4rem;
-    width: 80%;
+  color: gray;
+  line-height: 1.4rem;
+  width: 80%;
 }
-.released> ul:first-of-type {
-    display: flex;
-    padding-bottom: 1.1rem;
+.released > ul:first-of-type {
+  display: flex;
+  padding-bottom: 1.1rem;
 }
-.released> ul:first-of-type li:last-of-type {
-    margin-left: 1rem;
-    color: gray;
+.released > ul:first-of-type li:last-of-type {
+  margin-left: 1rem;
+  color: gray;
 }
-.released> ul:last-of-type {
-    display: flex;
-    padding-bottom: 1.1rem;
-} 
-.released> ul:last-of-type> li:last-of-type {
-    margin-left: 1rem;
-    color: gray;
+.released > ul:last-of-type {
+  display: flex;
+  padding-bottom: 1.1rem;
 }
-.released> button:first-of-type {
-    background-color: blue;
-    padding: 0.4rem 1rem;
-    color: white;
-    border:none;
+.released > ul:last-of-type > li:last-of-type {
+  margin-left: 1rem;
+  color: gray;
 }
-.released> button:last-of-type {
-    background-color: white;
-    border: solid rgb(206, 204, 204);
-    font-weight: 500;
-    padding: 0.3rem 1rem;
+.released > button:first-of-type {
+  background-color: blue;
+  padding: 0.4rem 1rem;
+  color: white;
+  border: none;
+}
+.released > button:last-of-type {
+  background-color: white;
+  border: solid rgb(206, 204, 204);
+  font-weight: 500;
+  padding: 0.3rem 1rem;
 }
 
 /* Seccion de otros tipos de moviles */
 #imagenes {
-    width: 150px;
-    height: 200px;
-  }
+  width: 150px;
+  height: 200px;
+}
 .moviles ul {
-      display: flex;
-  }
+  display: flex;
+}
 .moviles {
-    border: solid rgb(190, 183, 183) 0.01rem;
+  border: solid rgb(190, 183, 183) 0.01rem;
 }
 .movilb {
-    margin-left: 6rem;
-    padding: 2rem;
+  margin-left: 6rem;
+  padding: 2rem;
 }
 .movilb header {
-    padding: 2rem 0 1.5rem;
+  padding: 2rem 0 1.5rem;
 }
-.movilb> section> header ul {
-    color: blue;
-    padding-left: 0;
+.movilb > section > header ul {
+  color: blue;
+  padding-left: 0;
 }
-.movilb> section> header> ul> li:first-of-type {
-    margin-right: 1rem;
+.movilb > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
 }
-.movilb> section h1 {
-    font-size: 1.4rem;
-    padding: 0 0 1rem;
+.movilb > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
 }
 .movilb p {
-    color: gray;
-    line-height: 1.4rem;
-    padding: 0 0 3rem;
-    width: 90%; 
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
 }
-
 
 .movilc {
-    margin-left: 6rem;
-    padding: 2rem;
-    border: solid rgb(190, 183, 183) 0.01rem;
+  margin-left: 6rem;
+  padding: 2rem;
+  border: solid rgb(190, 183, 183) 0.01rem;
 }
 .movilc header {
-    padding: 2rem 0 1.5rem;
+  padding: 2rem 0 1.5rem;
 }
-.movilc> section> header ul {
-    color: blue;
-    padding-left: 0;
+.movilc > section > header ul {
+  color: blue;
+  padding-left: 0;
 }
-.movilc> section> header> ul> li:first-of-type {
-    margin-right: 1rem;
+.movilc > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
 }
-.movilc> section h1 {
-    font-size: 1.4rem;
-    padding: 0 0 1rem;
+.movilc > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
 }
 .movilc p {
-    color: gray;
-    line-height: 1.4rem;
-    padding: 0 0 3rem;
-    width: 90%; 
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
 }
 
 .movild {
-    margin-left: 6rem;
-    padding: 2rem;
+  margin-left: 6rem;
+  padding: 2rem;
 }
 .movild header {
-    padding: 2rem 0 1.5rem;
+  padding: 2rem 0 1.5rem;
 }
-.movild> section> header ul {
-    color: blue;
-    padding-left: 0;
+.movild > section > header ul {
+  color: blue;
+  padding-left: 0;
 }
-.movild> section> header> ul> li:first-of-type {
-    margin-right: 1rem;
+.movild > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
 }
-.movild> section h1 {
-    font-size: 1.4rem;
-    padding: 0 0 1rem;
+.movild > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
 }
 .movild p {
-    color: gray;
-    line-height: 1.4rem;
-    padding: 0 0 3rem;
-    width: 90%; 
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
 }
 
 /* Seccion de plan */
@@ -257,7 +256,7 @@ li {
   padding: 0.5rem 6rem 3rem 2rem;
   margin-right: 0.3rem;
 }
-.plan > div:last-of-type{
+.plan > div:last-of-type {
   background-color: black;
   padding: 0.5rem 6rem 3rem 2rem;
   margin-left: 2rem;
@@ -330,15 +329,104 @@ footer button {
   display: flex;
   color: gray;
 }
-.media> ul li {
+.media > ul li {
   margin-left: 1rem;
 }
 
+@media (max-width: 370px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  body {
+    margin-right: -14rem;
+  }
+  header {
+    font-size: 2rem;
+  }
+  .primero p {
+    color: gray;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    padding-bottom: 1.5rem;
+  }
+  .primero {
+    padding: 0rem 4rem 3rem;
+  }
+  .primero div {
+    display: flex;
+  }
+  .primero > div > button:first-of-type {
+    padding: 0.1rem;
+  }
+  .primero > div > button:last-of-type {
+    padding: 0.1rem;
+  }
 
+.segundo ul {
+  display: flex;
+  font-size: 0.87rem;
+  padding: 1.5rem 0 1.5rem;
+  border-top: solid rgb(241, 234, 234);
+  border-bottom: solid rgb(241, 234, 234);
+  }
 
+/* Movil a */
+.movila img {
+  width: 400px;
+  height: 400px;
+  margin: 2rem 3rem 0rem;
+}
 
-
-
-
-@media (min-width=700px) {
+  .moviles ul {
+    display: block;
+    width: 100%;
+  }
+.movila {
+  display: block;
+  margin-left: 4rem;
+  }
+.movila p {
+  line-height: 2.5rem;
+  width: 100%;
+  }
+.movila> section header {
+  padding-top: 2rem;
+  margin-top: 0;
+}
+.released {
+  padding-bottom: 2rem;
+}
+.movilb {
+  border-bottom: solid gray 0.01rem;
+}
+.movilc {
+  border: none; 
+}
+.movild {
+  border-top: solid gray 0.01rem;
+}
+.plan {
+  display: block;
+  margin: 0.5rem;
+}
+.plan> div:first-of-type {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.plan> div:last-of-type {
+  margin-bottom: 1rem;
+  width: 100%;
+  margin: 0;
+}
+footer {
+  display: block;
+}
+footer p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 }
