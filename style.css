@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.7rem 6rem 5rem;
+  font-weight: 500;
+}
+header > img {
+  width: 6rem;
+}
+.news ul {
+  display: flex;
+  justify-content: space-between;
+}
+.news > ul li {
+  margin-right: 0.9rem;
+}
+.news > ul li:not(:first-of-type) {
+  color: gray;
+}
+.news > ul > li:first-child {
+  border-bottom: solid rgba(0, 0, 255, 0.678);
+}
+
+.login ul {
+  display: flex;
+  justify-content: space-between;
+}
+.login > ul li {
+  margin-left: 1rem;
+}
+.login > ul > li:first-of-type {
+  color: gray;
+}
+.login > ul > li:nth-child(2) {
+  color: white;
+  background-color: rgba(62, 91, 253, 0.842);
+  padding: 0.5rem 0.3rem;
+  margin-top: -0.3rem;
+}
+li {
+  list-style: none;
+}
+.login img {
+  height: 30px;
+  width: 30px;
+}
+
+/* Seccion primero */
+.primero {
+  padding: 2.7rem 6rem 5rem;
+}
+.primero h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  width: 80%;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+}
+.primero p {
+  color: gray;
+  width: 55%;
+  line-height: 1.6rem;
+  padding-bottom: 1.5rem;
+}
+.primero > div > button:first-of-type {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.678);
+  margin-right: 0.5rem;
+  padding: 0.6rem;
+  border: none;
+}
+.primero > div > button:last-of-type {
+  color: rgba(0, 0, 255, 0.678);
+  border: solid rgba(0, 0, 255, 0.678);
+  background-color: white;
+  padding: 0.5rem 1.3rem;
+}
+
+/* segundo seccion */
+.segundo ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-top: solid rgb(241, 234, 234);
+  border-bottom: solid rgb(241, 234, 234);
+}
+
+/* Seccion de movil 187 */
+
+.movila {
+  display: flex;
+}
+.movila img {
+  width: 300px;
+  height: 400px;
+  margin: 4rem 6.3rem;
+}
+.movila > section header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+.movila > section > header ul {
+  display: flex;
+  margin-bottom: 2rem;
+  color: blue;
+}
+.movila > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
+}
+.movila h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.movila p {
+  color: gray;
+  line-height: 1.4rem;
+  width: 80%;
+}
+.released > ul:first-of-type {
+  display: flex;
+  padding-bottom: 1.1rem;
+}
+.released > ul:first-of-type li:last-of-type {
+  margin-left: 1rem;
+  color: gray;
+}
+.released > ul:last-of-type {
+  display: flex;
+  padding-bottom: 1.1rem;
+}
+.released > ul:last-of-type > li:last-of-type {
+  margin-left: 1rem;
+  color: gray;
+}
+.released > button:first-of-type {
+  background-color: blue;
+  padding: 0.4rem 1rem;
+  color: white;
+  border: none;
+}
+.released > button:last-of-type {
+  background-color: white;
+  border: solid rgb(206, 204, 204);
+  font-weight: 500;
+  padding: 0.3rem 1rem;
+}
+
+/* Seccion de otros tipos de moviles */
+#imagenes {
+  width: 150px;
+  height: 200px;
+}
+.moviles ul {
+  display: flex;
+}
+.moviles {
+  border: solid rgb(190, 183, 183) 0.01rem;
+}
+.movilb {
+  margin-left: 6rem;
+  padding: 2rem;
+}
+.movilb > h1 {
+  margin-bottom: 2rem;
+}
+.movilb header {
+  padding: 2rem 0 1.5rem;
+}
+.movilb > section > header ul {
+  color: blue;
+  padding-left: 0;
+}
+.movilb > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
+}
+.movilb > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
+}
+.movilb p {
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
+}
+
+.movilc {
+  margin-left: 6rem;
+  padding: 2rem;
+  padding-top: 6rem;
+  border: solid rgb(190, 183, 183) 0.01rem;
+}
+.movilc header {
+  padding: 2rem 0 1.5rem;
+}
+.movilc > section > header ul {
+  color: blue;
+  padding-left: 0;
+}
+.movilc > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
+}
+.movilc > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
+}
+.movilc p {
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
+}
+
+.movild {
+  margin-left: 6rem;
+  padding: 2rem;
+  padding-top: 6rem;
+}
+.movild header {
+  padding: 2rem 0 1.5rem;
+}
+.movild > section > header ul {
+  color: blue;
+  padding-left: 0;
+}
+.movild > section > header > ul > li:first-of-type {
+  margin-right: 1rem;
+}
+.movild > section h1 {
+  font-size: 1.4rem;
+  padding: 0 0 1rem;
+}
+.movild p {
+  color: gray;
+  line-height: 1.4rem;
+  padding: 0 0 3rem;
+  width: 90%;
+}
+
+/* Seccion de plan */
+.plan {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 6rem 2rem;
+  color: white;
+}
+.plan > div:first-of-type {
+  background-color: blue;
+  padding: 0.5rem 6rem 3rem 2rem;
+  margin-right: 0.3rem;
+}
+.plan > div:last-of-type {
+  background-color: black;
+  padding: 0.5rem 6rem 3rem 2rem;
+  margin-left: 2rem;
+}
+.plan h1 {
+  font-size: 2rem;
+  padding: 0;
+}
+.plan p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.plan h3 {
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+.plan ul li {
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+.plan1 {
+  background-color: white;
+  border: none;
+  margin-top: 1rem;
+  padding: 0.5rem 0.4rem;
+  margin-right: 0.3rem;
+}
+.plan2 {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: blanchedalmond;
+  background-color: blue;
+  border: solide white 1rem;
+}
+.plan3 {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  background-color: black;
+  border: solide white 1rem;
+  margin-left: 0.3rem;
+}
+
+footer {
+  display: flex;
+  margin: 6rem 6rem 0rem;
+  padding: 4rem 0 4rem;
+  border-top: solid gray 0.001rem;
+  border-bottom: solid gray 0.001rem;
+}
+footer p {
+  color: gray;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+footer button {
+  background-color: rgba(241, 233, 233, 0.616);
+  margin-top: 2rem;
+  padding: 0.3rem 1rem;
+  border: solid gray 0.01rem;
+}
+.out {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.media ul {
+  display: flex;
+  color: gray;
+}
+.media > ul li {
+  margin-left: 1rem;
+}
+
+/* Media  */
+
+@media only screen and (max-device-width: 912px) {
+  .primero h1 {
+    width: 100%;
+    font-size: 9rem;
+    line-height: 9rem;
+    margin-bottom: 6rem;
+    margin-top: 8rem;
+  }
+  body {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+  header {
+    font-size: 2rem;
+  }
+  .primero p {
+    color: gray;
+    width: 100%;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+  .primero {
+    padding: 0rem 3rem 0rem;
+  }
+  .primero div {
+    display: grid;
+  }
+  .primero > div > button:first-of-type {
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+  .primero > div > button:last-of-type {
+    padding: 2rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    width: 50%;
+  }
+
+  /* Segundo seccion */
+
+  .segundo ul {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  /* Movil a */
+  .movila img {
+    width: 1000px;
+    height: 1200px;
+    margin: 4rem 0rem 0rem;
+    margin-right: 2rem;
+  }
+
+  .moviles {
+    border: none;
+  }
+  .moviles ul {
+    display: block;
+    width: 100%;
+  }
+  .movila {
+    display: block;
+    font-size: 5rem;
+    margin-left: 4rem;
+  }
+  .movila h1 {
+    font-size: 8rem;
+    width: 100%;
+  }
+  .movila p,
+  .movilb p,
+  .movilc p,
+  .movild p {
+    line-height: 4.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 100%;
+  }
+  .movila > section > header ul,
+  .movilb > section > header ul,
+  .movilc > section > header ul,
+  .movild > section > header ul {
+    font-size: 4rem;
+  }
+  .movila > section header {
+    padding-top: 2rem;
+    margin-top: 0;
+  }
+  .released {
+    padding-bottom: 2rem;
+  }
+  .movila button:first-of-type,
+  .movilb button:first-of-type,
+  .movilc button:first-of-type,
+  .movild button:first-of-type {
+    font-size: 4rem;
+    padding: 1.2rem 4rem;
+  }
+  .movila button:last-of-type,
+  .movilb button:last-of-type,
+  .movilc button:last-of-type,
+  .movild button:last-of-type {
+    font-size: 4rem;
+    padding: 1.2rem 4rem;
+    margin: 10rem 0rem 6rem;
+  }
+
+  /* movilb */
+  #imagenes {
+    width: 1050px;
+    height: 1200px;
+  }
+  .movilb,
+  .movilc,
+  .movild {
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 0;
+    border: none;
+    padding: 0;
+  }
+  .movilb > h1 {
+    font-size: 6rem;
+    margin: 4rem 0rem 6rem;
+  }
+
+  /* Seccion de plan */
+
+  .plan {
+    display: block;
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .plan h1 {
+    font-size: 6rem;
+    padding: 0;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  .plan p {
+    line-height: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .plan h3 {
+    padding-bottom: 2rem;
+    font-weight: 500;
+    font-size: 4rem;
+  }
+  .plan ul li {
+    line-height: 2rem;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .plan > div:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .plan > div:last-of-type {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .plan1,
+  .plan2,
+  .plan3 {
+    font-size: 4rem;
+    padding: 1.2rem 2.5rem;
+  }
+  .plan1 {
+    margin-top: 6rem;
+  }
+
+  /* Footer */
+
+  footer {
+    display: block;
+  }
+  footer h1 {
+    font-size: 6rem;
+  }
+  footer p {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  footer button {
+    font-size: 4rem;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .out {
+    font-size: 2rem;
+  }
+}
