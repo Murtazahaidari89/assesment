@@ -172,6 +172,9 @@ li {
   margin-left: 6rem;
   padding: 2rem;
 }
+.movilb > h1 {
+  margin-bottom: 2rem;
+}
 .movilb header {
   padding: 2rem 0 1.5rem;
 }
@@ -196,6 +199,7 @@ li {
 .movilc {
   margin-left: 6rem;
   padding: 2rem;
+  padding-top: 6rem;
   border: solid rgb(190, 183, 183) 0.01rem;
 }
 .movilc header {
@@ -222,6 +226,7 @@ li {
 .movild {
   margin-left: 6rem;
   padding: 2rem;
+  padding-top: 6rem;
 }
 .movild header {
   padding: 2rem 0 1.5rem;
@@ -319,7 +324,6 @@ footer button {
   padding: 0.3rem 1rem;
   border: solid gray 0.01rem;
 }
-
 .out {
   display: flex;
   justify-content: space-around;
@@ -333,15 +337,19 @@ footer button {
   margin-left: 1rem;
 }
 
-@media (max-width: 370px) {
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+/* Media  */
+
+@media only screen and (max-device-width: 912px) {
+  .primero h1 {
+    width: 100%;
+    font-size: 9rem;
+    line-height: 9rem;
+    margin-bottom: 6rem;
+    margin-top: 8rem;
   }
   body {
-    margin-right: -14rem;
+    font-size: 0.5rem;
+    width: 100%;
   }
   header {
     font-size: 2rem;
@@ -349,84 +357,185 @@ footer button {
   .primero p {
     color: gray;
     width: 100%;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    padding-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
   }
   .primero {
-    padding: 0rem 4rem 3rem;
+    padding: 0rem 3rem 0rem;
   }
   .primero div {
-    display: flex;
+    display: grid;
   }
   .primero > div > button:first-of-type {
-    padding: 0.1rem;
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 50%;
   }
   .primero > div > button:last-of-type {
-    padding: 0.1rem;
+    padding: 2rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    width: 50%;
   }
 
-.segundo ul {
-  display: flex;
-  font-size: 0.87rem;
-  padding: 1.5rem 0 1.5rem;
-  border-top: solid rgb(241, 234, 234);
-  border-bottom: solid rgb(241, 234, 234);
+  /* Segundo seccion */
+
+  .segundo ul {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 1.5rem;
   }
 
-/* Movil a */
-.movila img {
-  width: 400px;
-  height: 400px;
-  margin: 2rem 3rem 0rem;
-}
+  /* Movil a */
+  .movila img {
+    width: 1000px;
+    height: 1200px;
+    margin: 4rem 0rem 0rem;
+    margin-right: 2rem;
+  }
 
+  .moviles {
+    border: none;
+  }
   .moviles ul {
     display: block;
     width: 100%;
   }
-.movila {
-  display: block;
-  margin-left: 4rem;
+  .movila {
+    display: block;
+    font-size: 5rem;
+    margin-left: 4rem;
   }
-.movila p {
-  line-height: 2.5rem;
-  width: 100%;
+  .movila h1 {
+    font-size: 8rem;
+    width: 100%;
   }
-.movila> section header {
-  padding-top: 2rem;
-  margin-top: 0;
-}
-.released {
-  padding-bottom: 2rem;
-}
-.movilb {
-  border-bottom: solid gray 0.01rem;
-}
-.movilc {
-  border: none; 
-}
-.movild {
-  border-top: solid gray 0.01rem;
-}
-.plan {
-  display: block;
-  margin: 0.5rem;
-}
-.plan> div:first-of-type {
-  margin-bottom: 1rem;
-  width: 100%;
-}
-.plan> div:last-of-type {
-  margin-bottom: 1rem;
-  width: 100%;
-  margin: 0;
-}
-footer {
-  display: block;
-}
-footer p {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
+  .movila p,
+  .movilb p,
+  .movilc p,
+  .movild p {
+    line-height: 4.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 100%;
+  }
+  .movila > section > header ul,
+  .movilb > section > header ul,
+  .movilc > section > header ul,
+  .movild > section > header ul {
+    font-size: 4rem;
+  }
+  .movila > section header {
+    padding-top: 2rem;
+    margin-top: 0;
+  }
+  .released {
+    padding-bottom: 2rem;
+  }
+  .movila button:first-of-type,
+  .movilb button:first-of-type,
+  .movilc button:first-of-type,
+  .movild button:first-of-type {
+    font-size: 4rem;
+    padding: 1.2rem 4rem;
+  }
+  .movila button:last-of-type,
+  .movilb button:last-of-type,
+  .movilc button:last-of-type,
+  .movild button:last-of-type {
+    font-size: 4rem;
+    padding: 1.2rem 4rem;
+    margin: 10rem 0rem 6rem;
+  }
+
+  /* movilb */
+  #imagenes {
+    width: 1050px;
+    height: 1200px;
+  }
+  .movilb,
+  .movilc,
+  .movild {
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 0;
+    border: none;
+    padding: 0;
+  }
+  .movilb > h1 {
+    font-size: 6rem;
+    margin: 4rem 0rem 6rem;
+  }
+
+  /* Seccion de plan */
+
+  .plan {
+    display: block;
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .plan h1 {
+    font-size: 6rem;
+    padding: 0;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  .plan p {
+    line-height: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .plan h3 {
+    padding-bottom: 2rem;
+    font-weight: 500;
+    font-size: 4rem;
+  }
+  .plan ul li {
+    line-height: 2rem;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .plan > div:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .plan > div:last-of-type {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .plan1,
+  .plan2,
+  .plan3 {
+    font-size: 4rem;
+    padding: 1.2rem 2.5rem;
+  }
+  .plan1 {
+    margin-top: 6rem;
+  }
+
+  /* Footer */
+
+  footer {
+    display: block;
+  }
+  footer h1 {
+    font-size: 6rem;
+  }
+  footer p {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  footer button {
+    font-size: 4rem;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .out {
+    font-size: 2rem;
+  }
 }
